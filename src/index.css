@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+#root {
+  color-scheme: light dark;
+  color: rgba(178, 215, 220, 0.87);
+  background-color: #002121;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
