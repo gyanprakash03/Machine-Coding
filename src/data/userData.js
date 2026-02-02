@@ -248,7 +248,6 @@ const users = [
 
 
 function getUsers(offset = 0, limit = 10) {
-
   return new Promise((res) => {
       if (offset > users.length) {
         res([]);
@@ -263,4 +262,9 @@ function getUsers(offset = 0, limit = 10) {
 
 }
 
-export default getUsers;
+function searchUsers(search) {
+  const res = users.filter(user => user.name.toLocaleLowerCase().includes(search));
+  return res;
+}
+
+export {getUsers, searchUsers};

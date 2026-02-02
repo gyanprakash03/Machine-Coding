@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react"
-import getUsers from "../data/userData";
+import {getUsers} from "../data/userData";
 
 const MAX_ITEMS = 50;
 const limit = 10;
