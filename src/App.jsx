@@ -5,6 +5,7 @@ import PopOver from './apps/PopOver'
 import DebouncedSearch from './apps/DebouncedSearch'
 import Carousel from './apps/Carousel'
 import Accordian from './apps/Accordian'
+import StarRating from './apps/StarRating'
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
       {/* <PopOver /> */}
       {/* <DebouncedSearch /> */}
       {/* <Carousel /> */}
-      <Accordian />
+      {/* <Accordian /> */}
+      <StarRating />
     </div>
   )
 }
