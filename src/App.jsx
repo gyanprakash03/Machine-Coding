@@ -3,6 +3,8 @@ import './App.css'
 import InfiniteScroll from './apps/InfiniteScroll'
 import PopOver from './apps/PopOver'
 import DebouncedSearch from './apps/DebouncedSearch'
+import Carousel from './apps/Carousel'
+import Accordian from './apps/Accordian'
 
 function App() {
 
@@ -10,7 +12,9 @@ function App() {
     <div>
       {/* <InfiniteScroll /> */}
       {/* <PopOver /> */}
-      <DebouncedSearch />
+      {/* <DebouncedSearch /> */}
+      {/* <Carousel /> */}
+      <Accordian />
     </div>
   )
 }
